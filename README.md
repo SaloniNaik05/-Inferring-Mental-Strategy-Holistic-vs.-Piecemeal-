@@ -92,27 +92,24 @@ The following visualizations compare **holistic** and **piecemeal** strategies:
 - **matplotlib, seaborn, plotly** – Visualization  
 
 ---
-#FINAL ANALYSIS: HMM PARAMETERS ---
+---
+
+## 🧩 Final Analysis: HMM Parameters
+
+The final analysis examines the trained Hidden Markov Models for **Holistic** and **Piecemeal** strategies. Below are the parameters exactly as obtained from the models:
 
 --- HOLISTIC MODEL ---
-Emission Means (Feature Averages for each Hidden State):
-[[2.12e+02, 3.28e-01],
- [4.41e+02, 4.07e-01],
- [1.06e+02, 2.96e-01]]
+**Emission Means (Feature Averages for each Hidden State):**
 
-Transition Matrix (Probability of moving between states):
-[[0.97, 0.  , 0.02],
- [0.01, 0.98, 0.01],
- [0.02, 0.01, 0.97]]
+**Transition Matrix (Probability of moving between states):**
 
 --- PIECEMEAL MODEL ---
-Emission Means (Feature Averages for each Hidden State):
-[[2.08e+02, 1.74e-01],
- [1.23e+03, 3.63e-01],
- [3.70e+02, 2.70e-01]]
+**Emission Means (Feature Averages for each Hidden State):**
 
-Transition Matrix (Probability of moving between states):
-[[0.99, 0.  , 0.01],
- [0.01, 0.99, 0.  ],
- [0.01, 0.  , 0.98]]
+> **Explanation:**  
+> - **Emission Means** show the average values of the features for each hidden state, summarizing typical behavior.  
+> - **Transition Matrix** shows how likely the model is to move from one hidden state to another.  
+> - Together, these parameters describe the patterns captured by the HMM for holistic and piecemeal strategies.
+
+---
 
