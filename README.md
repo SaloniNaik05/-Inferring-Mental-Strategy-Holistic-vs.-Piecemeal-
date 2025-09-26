@@ -30,8 +30,21 @@ This project investigates **how individuals process information**—whether they
 - Selected features that are most predictive of holistic or piecemeal strategies  
 
 ### 4. Model Training
-- **Hidden Markov Model (HMM)** trained on processed features  
-- Model saved as `.pkl` for reproducibility and deployment  
+
+- **Hidden Markov Model (HMM)** was trained on the processed features to classify participants as **Holistic** or **Piecemeal**.
+- The HMM captures temporal patterns in the data, such as sequences of eye movements and attention shifts, making it ideal for this type of behavioral analysis.
+- **Training Process:**
+  - Dataset split into **training (80%)** and **testing (20%)** sets.
+  - Model parameters (number of states, transition probabilities) were optimized using the training set.
+  - Evaluated performance using metrics such as **accuracy, precision, recall**, and **F1-score**.
+- **Model Saving:**
+  - The trained model was saved as a `.pkl` file for reproducibility and future predictions:
+  ```python
+  import pickle
+  with open('hmm_model.pkl', 'wb') as file:
+      pickle.dump(hmm_model, file)
+
+<img width="880" height="150" alt="Screenshot 2025-09-26 103326" src="https://github.com/user-attachments/assets/fc816c82-1287-4217-ac02-3a2af1705ce3" />
 
 ### 5. Clustering
 - Applied clustering algorithms to identify groups of similar strategies  
@@ -47,16 +60,25 @@ This project investigates **how individuals process information**—whether they
 ## 🖼 Visualization: Holistic vs. Piecemeal
 The following visualizations compare **holistic** and **piecemeal** strategies:
 
-| Holistic Strategy |  
-|  <img width="1919" height="949" alt="Screenshot 2025-09-26 181939" src="https://github.com/user-attachments/assets/e248fd7f-3a4d-448b-9e8d-3d3d97de2a65" />
+| Holistic Strategy |   
+
+<img width="1919" height="949" alt="Screenshot 2025-09-26 181939" src="https://github.com/user-attachments/assets/e248fd7f-3a4d-448b-9e8d-3d3d97de2a65" />
+
 | Piecemeal Strategy |   
+
 <img width="1916" height="957" alt="Screenshot 2025-09-26 181953" src="https://github.com/user-attachments/assets/85ae2137-7cc0-4cbc-8a21-c42aa814262b" />
 ## 🖼 Visualization:
+
 | Heatmap | 
+
 <img width="1916" height="943" alt="Screenshot 2025-09-26 182005" src="https://github.com/user-attachments/assets/9b0539cb-7bf7-4f0b-9fe1-60ed3c17ed13" />
+
 | other Visualization |
+
 <img width="1919" height="981" alt="Screenshot 2025-09-26 182029" src="https://github.com/user-attachments/assets/6897b20f-39d3-4563-8f4b-35e84b155563" />
+
 <img width="1903" height="945" alt="Screenshot 2025-09-26 182043" src="https://github.com/user-attachments/assets/08c0484d-f62c-4ca3-b2a3-fc935685f602" />
+
 <img width="1905" height="914" alt="Screenshot 2025-09-26 182051" src="https://github.com/user-attachments/assets/fd7dc3a4-06cd-4410-a80f-a8d579ffd82c" />
 
 
