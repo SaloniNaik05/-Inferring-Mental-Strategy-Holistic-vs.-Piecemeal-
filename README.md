@@ -42,6 +42,23 @@ This project investigates **how individuals process information**—whether they
 - Scatter plots for feature clustering  
 - Interactive plots to explore mental strategy behavior  
 
+---
+
+## 🖼 Visualization: Holistic vs. Piecemeal
+The following visualizations compare **holistic** and **piecemeal** strategies:
+
+| Holistic Strategy |  
+|  <img width="1919" height="949" alt="Screenshot 2025-09-26 181939" src="https://github.com/user-attachments/assets/e248fd7f-3a4d-448b-9e8d-3d3d97de2a65" />
+| Piecemeal Strategy |   
+<img width="1916" height="957" alt="Screenshot 2025-09-26 181953" src="https://github.com/user-attachments/assets/85ae2137-7cc0-4cbc-8a21-c42aa814262b" />
+## 🖼 Visualization:
+| Heatmap | 
+<img width="1916" height="943" alt="Screenshot 2025-09-26 182005" src="https://github.com/user-attachments/assets/9b0539cb-7bf7-4f0b-9fe1-60ed3c17ed13" />
+| other Visualization |
+<img width="1919" height="981" alt="Screenshot 2025-09-26 182029" src="https://github.com/user-attachments/assets/6897b20f-39d3-4563-8f4b-35e84b155563" />
+<img width="1903" height="945" alt="Screenshot 2025-09-26 182043" src="https://github.com/user-attachments/assets/08c0484d-f62c-4ca3-b2a3-fc935685f602" />
+<img width="1905" height="914" alt="Screenshot 2025-09-26 182051" src="https://github.com/user-attachments/assets/fd7dc3a4-06cd-4410-a80f-a8d579ffd82c" />
+
 
 ---
 
@@ -51,7 +68,6 @@ This project investigates **how individuals process information**—whether they
 - **scikit-learn** – Feature selection, clustering  
 - **hmmlearn** – Hidden Markov Model implementation  
 - **matplotlib, seaborn, plotly** – Visualization  
-<img width="1919" height="949" alt="Screenshot 2025-09-26 181939" src="https://github.com/user-attachments/assets/409c4c31-e9ec-46c6-beb2-92205215f387" />
 
 ---
 
