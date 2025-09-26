@@ -51,6 +51,7 @@ This project investigates **how individuals process information**—whether they
 - **scikit-learn** – Feature selection, clustering  
 - **hmmlearn** – Hidden Markov Model implementation  
 - **matplotlib, seaborn, plotly** – Visualization  
+<img width="1919" height="949" alt="Screenshot 2025-09-26 181939" src="https://github.com/user-attachments/assets/409c4c31-e9ec-46c6-beb2-92205215f387" />
 
 ---
 
