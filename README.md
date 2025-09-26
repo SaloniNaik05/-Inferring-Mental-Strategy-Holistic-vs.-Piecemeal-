@@ -43,7 +43,7 @@ This project investigates **how individuals process information**—whether they
 - Interactive plots to explore mental strategy behavior  
 
 > Example Visualization:  
-![Strategy Visualization](path_to_your_image.png)
+
 
 ---
 
