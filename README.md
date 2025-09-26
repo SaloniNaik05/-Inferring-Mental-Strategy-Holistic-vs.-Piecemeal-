@@ -106,6 +106,8 @@ The final analysis examines the trained Hidden Markov Models for **Holistic** an
 --- PIECEMEAL MODEL ---
 **Emission Means (Feature Averages for each Hidden State):**
 
+<img width="597" height="542" alt="Screenshot 2025-09-26 184917" src="https://github.com/user-attachments/assets/a3486eab-8f2a-4de7-acbe-47fe5290271f" />
+
 > **Explanation:**  
 > - **Emission Means** show the average values of the features for each hidden state, summarizing typical behavior.  
 > - **Transition Matrix** shows how likely the model is to move from one hidden state to another.  
