@@ -92,4 +92,27 @@ The following visualizations compare **holistic** and **piecemeal** strategies:
 - **matplotlib, seaborn, plotly** – Visualization  
 
 ---
+#FINAL ANALYSIS: HMM PARAMETERS ---
+
+--- HOLISTIC MODEL ---
+Emission Means (Feature Averages for each Hidden State):
+[[2.12e+02, 3.28e-01],
+ [4.41e+02, 4.07e-01],
+ [1.06e+02, 2.96e-01]]
+
+Transition Matrix (Probability of moving between states):
+[[0.97, 0.  , 0.02],
+ [0.01, 0.98, 0.01],
+ [0.02, 0.01, 0.97]]
+
+--- PIECEMEAL MODEL ---
+Emission Means (Feature Averages for each Hidden State):
+[[2.08e+02, 1.74e-01],
+ [1.23e+03, 3.63e-01],
+ [3.70e+02, 2.70e-01]]
+
+Transition Matrix (Probability of moving between states):
+[[0.99, 0.  , 0.01],
+ [0.01, 0.99, 0.  ],
+ [0.01, 0.  , 0.98]]
 
