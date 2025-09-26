@@ -42,8 +42,6 @@ This project investigates **how individuals process information**—whether they
 - Scatter plots for feature clustering  
 - Interactive plots to explore mental strategy behavior  
 
-> Example Visualization:  
-https://ibb.co/F4NRHfk9
 
 ---
 
@@ -56,4 +54,3 @@ https://ibb.co/F4NRHfk9
 
 ---
 
-## 🗂 Project Structure
